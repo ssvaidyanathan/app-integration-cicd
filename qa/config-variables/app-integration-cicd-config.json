@@ -1,0 +1,5 @@
+{
+	"`CONFIG_CONN_NAME`": "projects/bap-amer-coe-demo1/locations/us-west1/connections/pubsub",
+	"`CONFIG_ENV`": "qa",
+	"`CONFIG_URL`": "https://mocktarget.apigee.net"
+}
