@@ -11,7 +11,7 @@
         }
     ],
     "scripts": {
-        "integration-test": "npm install --silent; cucumber-js ./tests_local/integration",
+        "integration-test": "npm install --silent; cucumber-js ./tests/integration",
         "dev-integration-test": "npm install --silent;./local_test.sh; cucumber-js ./tests_local/integration; rm -rf tests_local node_modules"
     },
     "dependencies": {
