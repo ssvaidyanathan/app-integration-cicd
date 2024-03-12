@@ -1,5 +1,5 @@
 {
-    "name": "aic-summit-int-demo",
+    "name": "app-integration-cicd",
     "version": "1.0.0",
     "description": "Application Integration CICD Reference",
     "author": "ssvaidyanathan",
@@ -11,7 +11,7 @@
         }
     ],
     "scripts": {
-        "integration-test": "cucumber-js ./tests_local/integration",
+        "integration-test": "npm install --silent; cucumber-js ./tests_local/integration",
         "dev-integration-test": "npm install --silent;./local_test.sh; cucumber-js ./tests_local/integration; rm -rf tests_local node_modules"
     },
     "dependencies": {
